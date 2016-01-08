@@ -8,11 +8,8 @@ import org.springframework.web.servlet.ModelAndView;
 import com.sample.bean.Employee;
 import com.sample.service.EmployeeServiceImpl;
 
-/**
-* This method is class.
-*/
 @Controller
-public class UserController {
+public class MasterDataController {
 
 	private EmployeeServiceImpl employeeService;
 
